@@ -1,0 +1,11 @@
+[package]
+name = "code_report_v2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.13", features = ["tokio", "wgpu"] }
+tokio = { version = "1", features = ["full"] }
+rfd = "0.15.0" # For folder picking
+walkdir = "2.5.0"
+code_report_rs = {git = "https://github.com/Chu-4hun/CodeReport_rs", branch = "main"}
